@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 140px;
+}
+
+.container{
+    position: relative;
+}
+
+.row-img{
+    width: 362px;
+    height: 271px;
+    position: relative;
+}
+
+.price{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 121px;
+    top: -60px;;
+}
+
+.textprice{
+    box-sizing: border-box;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.bg-b{
+    color: #518CC4;
+}
+
+.bg-d{
+    color: #6c136f;
+}
+
+.bg-dd{
+    background-color: black;
+}
+
+.bg-g{
+    color: #51C46C; 
+}
+
+.col{
+    color: #DFE5E6;
+}
+
+.row-new::before{
+    position: absolute;
+    background-image: url("image/newmark.png");
+    content: "NEW";
+    box-sizing: border-box;
+    width: 68px;
+    height: 68px;
+    padding: 25px 15px;
+    left: -20px;
+    top: -15px;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    }
+.setImage1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url(./image/ocean.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.setImage2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url(./image/mountain.png);
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.setImage3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url(./image/forest.png);
+    justify-content: center;
+    align-items: center;
+}
+.row-content{
+    width: 362px;
+    height: 497px;
+    background-color: white;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    height: 93px;
+}
+
+.title-text{
+    margin: auto;
+}
+
+.list-total{
+    list-style-type: none;
+}
+
+.items-list{
+    height: 52px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.items-list:nth-child(odd){
+    background-color: #F0F2F2;
+}
+.items-list:nth-child(event){
+    background-color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+
+.button-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.btn-b{
+    border: 1px solid #518CC4;
+    color: #518CC4;
+}
+
+.btn-p{
+    border: 1px solid #6c136f;
+    background-color: #6c136f;
+    color: white;
+}
+
+.btn-g{
+    border: 1px solid #51C46C; 
+    color: #51C46C;
+}
+
