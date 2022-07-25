@@ -3,18 +3,25 @@
     padding: 0;
 }
 .flex-container{
-    width: 1170px;
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     margin-top: 180px;
     margin-bottom: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .container{
     position: relative;
+}
+
+.flex-container > .container {
+    height:900px;
+    flex: 300px;
+    
 }
 
 .row-img{
